@@ -5,7 +5,7 @@ import { View, TextInput, Button, StyleSheet } from "react-native";
 const goalInput = props => {
   const [goal, setGoal] = useState("");
 
-  inputGoalHandler = enteredGoal => {
+  const inputGoalHandler = enteredGoal => {
     setGoal(enteredGoal);
   };
 
